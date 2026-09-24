@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Experix — Gizlilik Politikası / Privacy Policy</title>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #111;
+      background: #f6f7f8;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 32px 0 12px; }
+    p, li { font-size: 16px; }
+    .muted { color: #5b6168; font-size: 14px; }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    }
+    nav { margin: 16px 0 28px; }
+    nav a { color: #0a7a62; margin-right: 16px; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Experix</h1>
+    <p class="muted">Gizlilik Politikası / Privacy Policy · Son güncelleme: 24 Eylül 2026</p>
+    <nav>
+      <a href="#tr">Türkçe</a>
+      <a href="#en">English</a>
+    </nav>
+
+    <section id="tr" class="card" lang="tr">
+      <h1>Gizlilik politikası</h1>
+      <p>Experix, araç ekspertiz analizi sunan bir mobil uygulamadır. Bu politika, uygulamayı kullanırken hangi verilerin işlendiğini açıklar.</p>
+
+      <h2>Toplanan veriler</h2>
+      <ul>
+        <li>Girdiğiniz araç bilgileri ve seçtiğiniz fotoğraflar rapor üretmek için kullanılır.</li>
+        <li>Satın alma sonrası analiz, OpenAI (ChatGPT) servisine gönderilir.</li>
+        <li>Satın alma işlemleri Apple tarafından işlenir. Experix kredi kartı bilgisi almaz.</li>
+        <li>Uygulama içi kullanım olayları (ekran görüntüleme, satın alma, rapor oluşturma) Firebase Analytics ile toplanır. Bu veriler reklam veya çapraz uygulama takip için kullanılmaz.</li>
+        <li>Experix reklam SDK’sı veya App Tracking Transparency ile IDFA toplamaz.</li>
+      </ul>
+
+      <h2>Saklama</h2>
+      <p>Oluşturulan raporlar ve kapak fotoğrafı cihazınızdaki uygulama alanında saklanır. Sorgu hakkı bilgisi cihazda tutulur.</p>
+
+      <h2>Paylaşım</h2>
+      <p>Satın alınan analiz için bilgiler ve fotoğraflar OpenAI’ye iletilir. Satın alma bilgisi Apple ve RevenueCat üzerinden işlenir. Analitik olaylar Google Firebase’e iletilir. Raporları başka kişilerle paylaşmayı siz seçmediğiniz sürece başka bir üçüncü tarafla paylaşılmaz.</p>
+
+      <h2>Haklarınız</h2>
+      <p>Cihazınızdaki raporları uygulamayı silerek kaldırabilirsiniz. Analiz için gönderilen içerik, ilgili hizmet sağlayıcının saklama politikasına tabidir.</p>
+
+      <h2>İletişim</h2>
+      <p>Gizlilik talepleriniz için App Store geliştirici iletişim kanalını kullanabilirsiniz.</p>
+    </section>
+
+    <section id="en" class="card" lang="en">
+      <h1>Privacy policy</h1>
+      <p>Experix is a mobile app that provides vehicle inspection analysis. This policy explains what data is processed when you use the app.</p>
+
+      <h2>Data we collect</h2>
+      <ul>
+        <li>The vehicle details and photos you enter are used to produce a report.</li>
+        <li>After purchase, analysis is sent to OpenAI (ChatGPT).</li>
+        <li>Purchases are processed by Apple. Experix does not collect card details.</li>
+        <li>In-app usage events (screen views, purchases, report creation) are collected with Firebase Analytics. This data is not used for advertising or cross-app tracking.</li>
+        <li>Experix does not use advertising SDKs and does not collect IDFA via App Tracking Transparency.</li>
+      </ul>
+
+      <h2>Storage</h2>
+      <p>Created reports and cover photos are stored in the app’s space on your device. Query credits are stored on the device.</p>
+
+      <h2>Sharing</h2>
+      <p>For a purchased analysis, details and photos are sent to OpenAI. Purchase data is processed by Apple and RevenueCat. Analytics events are sent to Google Firebase. They are not shared with any other third party unless you choose to share a report.</p>
+
+      <h2>Your rights</h2>
+      <p>You can remove reports stored on your device by deleting the app. Content sent for analysis is subject to the retention policy of the relevant service provider.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy requests, use the App Store developer contact channel.</p>
+    </section>
+  </main>
+</body>
+</html>
